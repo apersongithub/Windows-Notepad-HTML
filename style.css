@@ -1,0 +1,76 @@
+.flex > * {
+  display: inline-block;
+  margin: 0;
+}
+
+* {
+  font-family: msarial;
+}
+
+.title {
+  font-size: 13px;
+      font-weight: normal;
+}
+
+@font-face {
+    font-family: msarial;
+    src: url(arial.ttf);
+}
+
+@font-face {
+    font-family: msconsolas;
+    src: url(consola.ttf);
+}
+
+
+button {
+  border: 0;
+  font-size: 11.5px;
+    background-color: #ffffff00;
+    margin: 4px 2px;
+  padding: 5px 5px;
+}
+
+button:hover{
+border: solid;
+background-color: #e5f3ff;
+    border-color: #c2def5;
+border-width: 1px;
+      border-color: #c2def5;
+  margin: 0px 0px;
+  padding: 5px 5px;
+}
+
+.navigation-divider {
+  filter: brightness(0) saturate(100%) invert(96%) sepia(0%) saturate(639%) hue-rotate(267deg) brightness(117%) contrast(90%);
+  margin-top: -5px;
+  margin-left: -5px;
+}
+
+#count {
+  font-size: 13px;
+}
+
+.title {
+  font-size: 13px;
+}
+
+#file {
+  margin-left: -5px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px; 
+  margin-bottom: -2px;
+}
+
+#textinput {
+    width: 1003px;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    height: 353px; font-size: 16px; font-family: msconsolas;
+}

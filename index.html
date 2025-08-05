@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="Windows-Notepad-Icon.png">
+<title>*Untitled - Notepad</title>
+<html>
+    <link rel="stylesheet" href="style.css">
+<body>
+<div class="flex">
+  <img class="icon" src="Windows-Notepad-Icon.png"></img>
+  <h3 class="title">*Untitled - Notepad</h3>
+</div>
+
+  <div>  
+  <button id="file" onclick='File();''>File</button>
+  <button onclick='Save();'>Save</button>
+  <button onclick='SaveFile();'>Save to File</button>
+  <button onclick='Clear();'>Clear</button>
+  <button onclick="window.location.href = 'https://github.com/apersongithub/Windows-Notepad-HTML'">Credits</button>
+</div>
+<hr class="navigation-divider">
+  
+  <div class="flex">
+    <h3 class='title'>Remaining characters:</h3> <span id="count"></span>
+  </div>
+  <textarea placeholder="(Can only save 4096 bytes of data or 4096 characters) Updated every homeroom" type="text" id="textinput" name="lname""> </textarea>
+</body>
+</html>
+
+<script src="script.js"></script>
