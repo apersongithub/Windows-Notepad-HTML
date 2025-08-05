@@ -5,7 +5,7 @@ source will be here once the code is cleaned up and ready!
 
 # Latest Prototype
 
-https://onlinenotepad.cf/
+https://apersongithub.github.io/Windows-Notepad-HTML/
 ![image](https://user-images.githubusercontent.com/72956230/200983932-97cc0b51-b0c7-4bfa-8313-1f77617304b1.png)
 
 
